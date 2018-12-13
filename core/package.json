@@ -9,8 +9,7 @@
     "url": "git+https://github.com/dcleao/mvn-web.git"
   },
   "publishConfig": {
-    "registry": "https://nexus3.pentaho.com/repository/npm-test/",
-    "access": "restricted"
+    "registry": "https://nexus3.pentaho.com/repository/npm-test/"
   },
   "dependencies": {
     "jquery": "^3.3.1"
