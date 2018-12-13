@@ -1,0 +1,18 @@
+{
+  "name": "@pentaho/mvn-web",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "Experimenting with the integration of the Maven and NPM life-cycles.",
+  "license": "MIT",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcleao/mvn-web.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus3.pentaho.com/repository/npm-test/",
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+}
