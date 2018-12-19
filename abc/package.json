@@ -3,6 +3,7 @@
   "version": "1.0.0-SNAPSHOT",
   "description": "Test web package using Pentaho Web Builder.",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "pwb": "pwb",
     "pwb:lintSource2": "eslint src -o target/src-lint-report.json -f json",
