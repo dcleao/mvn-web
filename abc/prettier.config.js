@@ -1,0 +1,1 @@
+module.exports = {};//require("@pentaho/prettier-config");

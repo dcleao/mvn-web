@@ -1,9 +1,8 @@
 {
-  "name": "@pentaho/mvn-web",
-  "version": "1.0.0-SNAPSHOT",
-  "description": "Experimenting with the integration of the Maven and NPM life-cycles.",
+  "name": "@pentaho/eslint-config",
+  "version": "1.0.0",
+  "description": "Pentaho default eslint rules",
   "license": "MIT",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcleao/mvn-web.git"
@@ -11,7 +10,8 @@
   "publishConfig": {
     "registry": "https://nexus3.pentaho.com/repository/npm-test/"
   },
-  "dependencies": {
-    "jquery": "^3.3.1"
+  "peerDependencies": {
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0"
   }
 }

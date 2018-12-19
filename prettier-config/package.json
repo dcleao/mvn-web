@@ -1,0 +1,13 @@
+{
+  "name": "@pentaho/prettier-config",
+  "version": "1.0.0",
+  "description": "Pentaho default Prettier configuration",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcleao/mvn-web.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus3.pentaho.com/repository/npm-test/"
+  }
+}
