@@ -1,5 +1,5 @@
 {
-  "name": "@pentaho/prettier-config",
+  "name": "@hitachivantara/prettier-config",
   "version": "1.0.0",
   "description": "Pentaho default Prettier configuration",
   "license": "MIT",

@@ -1,13 +1,11 @@
 {
-  "name": "@pentaho/web-builder-cli",
+  "name": "@hitachivantara/web-builder-cli",
   "version": "1.0.0-SNAPSHOT.1",
-  "description": "Client tool for performing builds of web projects.",
+  "description": "Hitachi Vantara web project builder client tool.",
   "license": "MIT",
   "main": "index.js",
-  "scripts": {},
   "bin": {
-    "pentaho-web-build": "./bin/pentaho-web-build.js",
-    "pwb": "./bin/pentaho-web-build.js"
+    "hv-web-builder": "./bin/hv-web-builder.js"
   },
   "repository": {
     "type": "git",

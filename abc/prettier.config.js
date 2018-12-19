@@ -1,1 +1,1 @@
-module.exports = {};//require("@pentaho/prettier-config");
+module.exports = require("@hitachivantara/prettier-config");

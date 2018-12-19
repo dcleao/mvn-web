@@ -1,5 +1,5 @@
 {
-  "name": "@pentaho/eslint-config",
+  "name": "@hitachivantara/eslint-config",
   "version": "1.0.0",
   "description": "Pentaho default eslint rules",
   "license": "MIT",

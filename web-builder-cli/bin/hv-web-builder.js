@@ -4,7 +4,7 @@ const Builder = require("../src/Builder.js");
 
 const command = process.argv[2];
 
-console.log(`pentaho-web-build ${command}`);
+console.log(`hv-web-builder ${command}`);
 
 const folder = process.cwd();
 const builder = new Builder({folder});

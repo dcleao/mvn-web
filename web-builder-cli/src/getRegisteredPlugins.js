@@ -5,11 +5,11 @@ const getPackageJson = require("./getPackageJson.js");
 
 const patterns = [
   // Own plugins.
-  /^@pentaho\/web-builder-plugin-(?:.*)$/,
+  /^@hitachivantara\/web-builder-plugin-(?:.*)$/,
 
   // Third-party plugins.
-  /pentaho-web-builder-plugin-(?:.*)$/,
-  /@(?:.+?)\/pentaho-web-builder-plugin-(?:.*)$/
+  /hitachivantara-web-builder-plugin-(?:.*)$/,
+  /@(?:.+?)\/hitachivantara-web-builder-plugin-(?:.*)$/
 ];
 
 module.exports = function getRegisteredPlugins(folder) {

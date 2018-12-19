@@ -1,4 +1,7 @@
 {
+  "extends": [
+    "@hitachivantara"
+  ],
   "env": {
     "node": true
   }

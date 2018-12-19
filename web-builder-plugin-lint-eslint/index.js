@@ -20,9 +20,7 @@ function lintStep(src, lintReport) {
   
   const CLIEngine = require("eslint").CLIEngine;
   
-  const baseConfig = require("@pentaho/eslint-config");
-
-  const cli = new CLIEngine({baseConfig});
+  const cli = new CLIEngine();
 
   const report = cli.executeOnFiles([src]);
 
@@ -40,7 +38,7 @@ function lintStep(src, lintReport) {
 function writeFileSync(file, data) {
   const fs = require("fs");
   const path = require("path");
-  
+
   fs.mkdirSync(path.dirname(file), {recursive: true});
   fs.writeFileSync(file, data, {flag: "w"});
 }

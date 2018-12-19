@@ -1,27 +1,13 @@
 {
-  "name": "@pentaho/abc",
+  "name": "@hitachivantara/abc",
   "version": "1.0.0-SNAPSHOT",
   "description": "Test web package using Pentaho Web Builder.",
   "license": "MIT",
   "scripts": {
     "pwb": "pwb",
-    "pwb:lintSource3": "eslint src -o target/src-lint-report.json -f json",
-    "pwb:compileSource": ":",
-    "pwb:bundleSource": ":",
-    "pwb:lintTest3": "eslint pwb_src -o pwb_test_lint_report",
-    "pwb:compileTest": ":",
-    "pwb:runTest": ":",
-    "pwb:verify": ":",
-    "pwb:install": ":",
-    "pwb:publish": ":",
-    "pwb:generateDocs": ":",
-    "pwb:cleanSource": ":",
-    "pwb:cleanTest": ":",
-    "pwb:cleanBundle": ":",
-    "prepack": "pwb pack",
-    "compile": "pwb compile",
-    "test": "pwb test",
-    "lint": "pwb lint"
+    "pwb:lintSource2": "eslint src -o target/src-lint-report.json -f json",
+    "pwb:testSource": "eslint src -o target/src-lint-report.json -f json",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -34,7 +20,13 @@
     "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "@pentaho/web-builder-cli": "^1.0.0-SNAPSHOT",
-    "@pentaho/web-builder-plugin-lint-eslint": "^1.0.0-SNAPSHOT"
+    "@hitachivantara/web-builder-cli": "^1.0.0-SNAPSHOT",
+    "@hitachivantara/web-builder-plugin-lint-eslint": "^1.0.0-SNAPSHOT",
+    "@hitachivantara/eslint-config": "^1.0.0-SNAPSHOT",
+    "@hitachivantara/prettier-config": "^1.0.0-SNAPSHOT",
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3"
   }
 }

@@ -18,7 +18,7 @@ class Builder {
       plugins: this._initPlugins(options.plugins),
     };
 
-    console.log(`registered plugins: ${this.options.plugins.map(pluginInfo => pluginInfo.id)}`);
+    // console.log(`registered plugins: ${this.options.plugins.map(pluginInfo => pluginInfo.id)}`);
 
     const resolvePathOption = (name, defaultValue) => {
       return this._resolveFolderPath(readConfigOption(options, name, defaultValue)); 
@@ -219,18 +219,15 @@ class Builder {
     
     if(typeof this._targetScripts[scriptName] === "string") {
       
-      console.log(`will run script ${scriptName}`);
+      console.log(`* will run script ${scriptName}`);
       
       const scriptEnv = Object.assign({}, process.env, envExtra);
   
       execSync(`npm run ${scriptName}`, {cwd: this.options.folder, env: scriptEnv, stdio: [0, 1, 2]});
   
-      console.log(`did run script ${scriptName}`);
-  
       return true;
     }
   
-    console.log(`script ${scriptName} is not defined`);
     return false;
   }
 
@@ -243,7 +240,7 @@ class Builder {
          (pluginInfo.steps === null || pluginInfo.steps.includes(stepName))) {
         
         // Stop unless the plugin returns `false`.
-        console.log(`running plugin ${pluginInfo.id} step ${stepName}`);
+        console.log(`* will run plugin ${pluginInfo.id} step ${stepName}`);
         if(pluginInfo.plugin[fullStepName](this) !== false) {
           return true;
         }
