@@ -1,0 +1,19 @@
+{
+  "name": "@hitachivantara/web-builder-plugin-compile-babel",
+  "version": "1.0.0-SNAPSHOT.1",
+  "description": "Babel compilation plugin for Pentaho Web Builder.",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcleao/mvn-web.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus3.pentaho.com/repository/npm-test/"
+  },
+  "peerDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@hitachivantara/web-builder-cli": "^1.0.0-SNAPSHOT.1"
+  }
+}

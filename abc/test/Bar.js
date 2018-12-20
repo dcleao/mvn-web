@@ -8,4 +8,4 @@ class Bar {
   }
 }
 
-exports.Bar = Bar;
+export default Bar;

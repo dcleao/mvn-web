@@ -1,16 +1,19 @@
 
+const fs = require("fs");
+const path = require("path");
+
 module.exports = {
 
   lintSourceStep(builder) {
-    var src = builder.options.src;
-    var lintReport = builder.options.srcLintReport;
+    const src = builder.options.src;
+    const lintReport = builder.options.srcLintReport;
 
     lintStep(src, lintReport);
   },
 
   lintTestStep(builder) {
-    var src = builder.options.test;
-    var lintReport = builder.options.testLintReport;
+    const src = builder.options.test;
+    const lintReport = builder.options.testLintReport;
 
     lintStep(src, lintReport);
   }
@@ -36,9 +39,6 @@ function lintStep(src, lintReport) {
 }
 
 function writeFileSync(file, data) {
-  const fs = require("fs");
-  const path = require("path");
-
   fs.mkdirSync(path.dirname(file), {recursive: true});
   fs.writeFileSync(file, data, {flag: "w"});
 }

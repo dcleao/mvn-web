@@ -5,6 +5,10 @@ class Foo {
       return;
     }
   }
+
+  doAsync() {
+    return new Promise();
+  }
 }
 
-exports.Foo = Foo;
+export default Foo;

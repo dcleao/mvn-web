@@ -1,0 +1,23 @@
+{
+  "name": "@hitachivantara/babel-config-esm-to-amd",
+  "version": "1.0.0-SNAPSHOT.1",
+  "description": "Babel configuration for transforming ESM modules code into AMD code.",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcleao/mvn-web.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus3.pentaho.com/repository/npm-test/"
+  },
+  "peerDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-member-expression-literals": "^7.0.0",
+    "@babel/plugin-transform-property-literals": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/runtime": "^7.2.0",
+    "babel-plugin-transform-es2015-modules-simple-amd": "^0.3.0"
+  }
+}
