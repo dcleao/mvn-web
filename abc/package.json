@@ -15,27 +15,14 @@
     "registry": "https://nexus3.pentaho.com/repository/npm-test/"
   },
   "dependencies": {
-    "@babel/runtime": "^7.2.0",
-    "core-js": "^2.6.1"
+    "@babel/runtime": "^7.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.5",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/plugin-transform-member-expression-literals": "^7.0.0",
-    "@babel/plugin-transform-property-literals": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "@babel/preset-env": "^7.1.5",
-    "babel-plugin-transform-es2015-modules-simple-amd": "^0.3.0",
+    "@hitachivantara/web-builder-cli": "^1.0.0-SNAPSHOT",
+    "@hitachivantara/web-builder-plugin-lint-eslint": "^1.0.0-SNAPSHOT",
+    "@hitachivantara/web-builder-plugin-compile-babel": "^1.0.0-SNAPSHOT",
     "@hitachivantara/babel-config-esm-to-amd": "^1.0.0-SNAPSHOT",
     "@hitachivantara/eslint-config": "^1.0.0-SNAPSHOT",
-    "@hitachivantara/prettier-config": "^1.0.0-SNAPSHOT",
-    "@hitachivantara/web-builder-cli": "^1.0.0-SNAPSHOT",
-    "@hitachivantara/web-builder-plugin-compile-babel": "^1.0.0-SNAPSHOT",
-    "@hitachivantara/web-builder-plugin-lint-eslint": "^1.0.0-SNAPSHOT",
-    "eslint": "^5.10.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "prettier": "^1.15.3"
+    "@hitachivantara/prettier-config": "^1.0.0-SNAPSHOT"
   }
 }

@@ -11,6 +11,12 @@
   "publishConfig": {
     "registry": "https://nexus3.pentaho.com/repository/npm-test/"
   },
+  "scripts": {
+    "postinstall": "hv-install-peer-deps"
+  },
+  "dependencies": {
+    "@hitachivantara/web-builder-util": "^1.0.0-SNAPSHOT.1"
+  },
   "peerDependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/plugin-transform-member-expression-literals": "^7.0.0",
@@ -18,6 +24,11 @@
     "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/preset-env": "^7.1.5",
     "@babel/runtime": "^7.2.0",
-    "babel-plugin-transform-es2015-modules-simple-amd": "^0.3.0"
+    "babel-plugin-transform-es2015-modules-simple-amd": "^0.3.0",
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5"
+  },
+  "peerDependenciesSaveAs": {
+    "@babel/runtime": "prod"
   }
 }

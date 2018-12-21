@@ -9,5 +9,14 @@
   },
   "publishConfig": {
     "registry": "https://nexus3.pentaho.com/repository/npm-test/"
+  },
+  "scripts": {
+    "postinstall": "hv-install-peer-deps"
+  },
+  "dependencies": {
+    "@hitachivantara/web-builder-util": "^1.0.0-SNAPSHOT.1"
+  },
+  "peerDependencies": {
+    "prettier": "^1.15.3"
   }
 }

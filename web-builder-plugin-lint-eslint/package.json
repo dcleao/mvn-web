@@ -12,7 +12,7 @@
     "registry": "https://nexus3.pentaho.com/repository/npm-test/"
   },
   "peerDependencies": {
-    "@hitachivantara/web-builder-cli": "^1.0.0-SNAPSHOT.1",
-    "eslint": "^5.10.0"
+    "eslint": "^5.10.0",
+    "@hitachivantara/web-builder-cli": "^1.0.0-SNAPSHOT.1"
   }
 }

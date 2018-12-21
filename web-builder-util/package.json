@@ -1,11 +1,10 @@
 {
-  "name": "@hitachivantara/web-builder-cli",
+  "name": "@hitachivantara/web-builder-util",
   "version": "1.0.0-SNAPSHOT.1",
-  "description": "Hitachi Vantara web project builder client tool.",
+  "description": "Utilities for Hitachi Vantara Web Builder Plugins.",
   "license": "MIT",
-  "main": "index.js",
   "bin": {
-    "hv-web-builder": "./bin/hv-web-builder.js"
+    "hv-install-peer-deps": "./bin/hv-install-peer-deps.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +13,7 @@
   "publishConfig": {
     "registry": "https://nexus3.pentaho.com/repository/npm-test/"
   },
-  "dependencies": {
-    "@hitachivantara/web-builder-util": "^1.0.0-SNAPSHOT"
+  "devDependencies": {
+    "@hitachivantara/prettier-config": "^1.0.0-SNAPSHOT"
   }
 }

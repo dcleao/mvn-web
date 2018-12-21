@@ -3,7 +3,7 @@
 
 const path = require("path");
 const {execSync} = require("child_process");
-const getPackageJson = require("./getPackageJson.js");
+const getPackageJson = require("@hitachivantara/web-builder-util/getPackageJson.js");
 const getRegisteredPlugins = require("./getRegisteredPlugins.js");
 
 // npm install should have been performed.

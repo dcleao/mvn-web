@@ -10,8 +10,16 @@
   "publishConfig": {
     "registry": "https://nexus3.pentaho.com/repository/npm-test/"
   },
+  "scripts": {
+    "postinstall": "hv-install-peer-deps"
+  },
+  "dependencies": {
+    "@hitachivantara/web-builder-util": "^1.0.0-SNAPSHOT.1"
+  },
   "peerDependencies": {
     "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0"
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint": "^5.10.0",
+    "prettier": "^1.15.3"
   }
 }
