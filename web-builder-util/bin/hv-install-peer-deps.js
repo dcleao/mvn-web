@@ -69,7 +69,7 @@ function isSaveAsProd(depId) {
 }
 
 function buildPackagesInstallText(depIds) {
-  return depIds.map(depId => `${depId}@${peerDependencies[depId]}`).join(" ");
+  return depIds.map(depId => `"${depId}@${peerDependencies[depId]}"`).join(" ");
 }
 
 function installDependency(packages, saveAsProdDep) {
