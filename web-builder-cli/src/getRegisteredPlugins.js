@@ -1,7 +1,7 @@
 
 "use strict";
 
-const getPackageJson = require("./getPackageJson.js");
+const getPackageJson = require("@hitachivantara/web-builder-util/getPackageJson.js");
 
 const patterns = [
   // Own plugins.
